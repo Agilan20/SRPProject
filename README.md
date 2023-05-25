@@ -1,38 +1,19 @@
-# Welcome to MERN Login System
+Welcome to DIST Scholarship application
 
-Hello everyone, In this project, we are going to create **MERN Stack App with Login System**. 
-We will take a look at how to create login, registration, profile, reset password routes and learn
-how to send Mail from the Node.js backend application.
+You can clone the project using the github link https://github.com/Agilan20/SRPProject.git
 
-## Working with the Project
+Clone using a text editor like VS Code
 
-Download this project from above link. Create two configaration files into the project.
-First in the client and second in the server.
+After you clone, you will be able to two folders
 
-In the Client Folder create .env file and put this code inside it.
+** Client **
 
-.env
-```
-REACT_APP_SERVER_DOMAIN='<server_domain>' # example 'http://localhost:8080'
-```
+** Server **
 
+navigate to the individual folders and run the command "npm install"
 
-After that create a file in the Server Folder with the name config.js and put the below code inside it.
+Open two terminals for both client and server.
 
-config.js
-```
-export default {
-    JWT_SECRET : "<secret>",
-    EMAIL: "steve.franecki@ethereal.email", // testing email & password
-    PASSWORD : "sMf46xCzrvdrxvuagc",
-    ATLAS_URI: "<MONGODB_ATLAS_URI>"
-}
-```
+Run "npm start" in both the terminals.
 
-> **Note:** The **ATLAS_URI** is important to work this project.
-
-Now, create all these variables in the project and make sure you set ATLAS_URI variable.
-Otherwise, the project will not work.
-
-Learn More about this project from the
-[ - Daily Tuition](https://www.youtube.com/c/@dailytuition) Youtube Channel.
+You are all set to go.
